@@ -1,0 +1,36 @@
+/* Exact styling */
+.dialog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+  }
+  
+  .close-icon {
+    cursor: pointer;
+    color: #666;
+  }
+  
+  .widget-select-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .widget-select-table .header-row {
+    background-color: #f5f5f5;
+  }
+  
+  .widget-select-table td, .widget-select-table th {
+    padding: 12px 16px;
+    border: 1px solid #e0e0e0;
+    text-align: left;
+  }
+  
+  .widget-checkbox {
+    padding: 0 8px 0 0;
+  }
+  
+  /* Makes checkboxes align perfectly with text */
+  .MuiCheckbox-root {
+    padding: 4px 8px !important;
+  }

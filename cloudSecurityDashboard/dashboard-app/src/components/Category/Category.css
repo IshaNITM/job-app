@@ -1,0 +1,28 @@
+/* src/components/Category/Category.css */
+.category-container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 25px;
+    padding: 20px;
+    border-left: 4px solid #3498db;
+  }
+  
+  .widgets-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+  }
+  
+  .add-widget-btn {
+    height: 100px;
+    min-width: 200px;
+    border: 2px dashed #ccc !important;
+    color: #666 !important;
+  }
+  
+  .add-widget-btn:hover {
+    border-color: #3498db !important;
+    color: #3498db !important;
+  }
